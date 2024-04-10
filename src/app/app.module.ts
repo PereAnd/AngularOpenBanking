@@ -23,6 +23,8 @@ import { DetailProductComponent } from './components/marketplace/pages/detail-pr
 import { ListProductComponent } from './components/marketplace/pages/list-product/list-product.component';
 import { HeaderMarketplaceComponent } from './components/marketplace/utils/header-marketplace/header-marketplace.component';
 import { ProductComponent } from './components/marketplace/utils/product/product.component';
+import { GridEntityComponent } from './components/lists/grid-entity/grid-entity.component';
+import { SelectEntityComponent } from './pages/select-entity/select-entity.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +47,8 @@ import { ProductComponent } from './components/marketplace/utils/product/product
     ListProductComponent,
     HeaderMarketplaceComponent,
     ProductComponent,
+    GridEntityComponent,
+    SelectEntityComponent,
   ],
   imports: [
     BrowserModule,
