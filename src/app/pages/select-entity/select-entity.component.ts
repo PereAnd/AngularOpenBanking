@@ -5,11 +5,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './select-entity.component.html',
   styleUrls: ['./select-entity.component.css']
 })
-export class SelectEntityComponent implements OnInit{
+export class SelectEntityComponent{
   constructor(){}
-  ngOnInit(): void {
-    throw new Error('Method not implemented.');
-  }
+
   entities = [
     {
       "id": 1,
@@ -106,5 +104,8 @@ export class SelectEntityComponent implements OnInit{
       "name": "banco falabella",
       "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/ban-falabella.png"
     },
-  ]
+  ];
+  ngOnInit(): void {
+    throw new Error('Method not implemented.');
+  }
 }

@@ -1,20 +1,4 @@
-<app-header-cbit></app-header-cbit>
-<br>
-<p>Elige tu Banco</p>
-
-<input type="text" class="input"> 
-  <img src="https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/search-button.png" 
-  width="50" height="50" frameborder="0" scrolling="no" allowfullscreen title="search-button">
-
-
-<section class= "grid-entity">
-  <div class="select-entity">1</div>
-  <div class="select-entity">2</div>
-  <div class="select-entity">3</div>
-  <div class="select-entity">4</div>
-  <div class="select-entity">5</div>
-  <div class="select-entity">6</div>
-  <div class="select-entity">7</div>
-  <div class="select-entity">8</div>
-  <div class="select-entity">9</div>
+<section class= "grid-entity" *ngFor="let entity of entities">
+  <div class="select-entity">{{entity.name}}</div>
+  <div class="select-entity">{{entity.name}}</div>
 </section>
