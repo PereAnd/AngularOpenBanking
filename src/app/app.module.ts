@@ -23,10 +23,8 @@ import { DetailProductComponent } from './components/marketplace/pages/detail-pr
 import { ListProductComponent } from './components/marketplace/pages/list-product/list-product.component';
 import { HeaderMarketplaceComponent } from './components/marketplace/utils/header-marketplace/header-marketplace.component';
 import { ProductComponent } from './components/marketplace/utils/product/product.component';
-<<<<<<< HEAD
 import { GridEntityComponent } from './components/lists/grid-entity/grid-entity.component';
 import { SelectEntityComponent } from './pages/select-entity/select-entity.component';
-=======
 import { TermsConditionsComponent } from './pages/terms-conditions/terms-conditions.component';
 import { TermsAcceptComponent } from './pages/terms-accept/terms-accept.component';
 import { EntityComponent } from './components/utils/entity/entity.component';
@@ -36,7 +34,6 @@ import { RecommendationComponent } from './components/utils/recommendation/recom
 import { FinanceComponent } from './components/utils/finance/finance.component';
 import { ListProductsComponent } from './components/lists/list-products/list-products.component';
 import { ListRecommendationsComponent } from './components/lists/list-recommendations/list-recommendations.component';
->>>>>>> main
 
 @NgModule({
   declarations: [
@@ -59,10 +56,8 @@ import { ListRecommendationsComponent } from './components/lists/list-recommenda
     ListProductComponent,
     HeaderMarketplaceComponent,
     ProductComponent,
-<<<<<<< HEAD
     GridEntityComponent,
     SelectEntityComponent,
-=======
     TermsConditionsComponent,
     TermsAcceptComponent,
     EntityComponent,
@@ -72,7 +67,6 @@ import { ListRecommendationsComponent } from './components/lists/list-recommenda
     FinanceComponent,
     ListProductsComponent,
     ListRecommendationsComponent,
->>>>>>> main
   ],
   imports: [
     BrowserModule,

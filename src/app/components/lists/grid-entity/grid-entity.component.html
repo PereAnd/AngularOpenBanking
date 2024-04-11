@@ -1,5 +1,5 @@
-<section class= "grid-entity" *ngFor="let entity of entities">
-  <div class="select-entity">{{entity.name}}</div>
-  <div class="select-entity">{{entity.name}}</div>
-  <div class="select-entity">{{entity.name}}</div>
-</section>
+<div class= "grid-entity">
+  <div class="select-entity" *ngFor="let entity of entities">
+    <app-entity [nameImage]="entity.path"></app-entity>
+  </div>
+</div>

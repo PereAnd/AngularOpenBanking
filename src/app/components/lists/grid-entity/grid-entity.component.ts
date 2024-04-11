@@ -13,119 +13,119 @@ export class GridEntityComponent implements OnInit{
       "id": 1,
       "name": "av villas",
       "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/ban-avvillas.png",
-      "path": "../../assets/entityF/ban-avvillas.png"
+      "path": "ban-avvillas"
     },
     {
       "id": 2,
       "name": "banco popular",
       "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/ban-popular.png",
-      "path": "../../assets/entityF/ban-popular.png"
+      "path": "ban-popular"
 
     },
     {
       "id": 3,
       "name": "banco w",
       "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/ban-w.png",
-      "path": "../../assets/entityF/ban-w.png"
+      "path": "ban-w"
 
     },
     {
       "id": 4,
       "name": "banco w",
       "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/ban-w.png",
-      "path": "../../assets/entityF/ban-w.png"
+      "path": "ban-w"
 
     },
     {
       "id": 5,
       "name": "daviplata",
       "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/daviplata.png",
-      "path": "../../assets/entityF/daviplata.png"
+      "path": "daviplata"
     },
     {
       "id": 6,
       "name": "banco de occidente",
       "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/ban-occidente.png",
-      "path": "../../assets/entityF/ban-occidente.png"
+      "path": "ban-occidente"
     },
     {
       "id": 7,
       "name": "banco pichincha",
       "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/ban-pichincha.png",
-      "path": "../../assets/entityF/ban-pichincha.png"
+      "path": "ban-pichincha"
 
     },
     {
       "id": 8,
       "name": "banco de agrario de colombia",
       "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/ban-agrario.png",
-      "path": "../../assets/entityF/ban-agrario.png"
+      "path": "ban-agrario"
     },
     {
       "id": 9,
       "name": "banco caja social",
       "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/ban-cajasocial.png",
-      "path": "../../assets/entityF/ban-cajasocial.png"
+      "path": "ban-cajasocial"
     },
     {
       "id": 10,
       "name": "bancolombia",
       "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/bancolombia.png",
-      "path": "../../assets/entityF/bancolombia.png"
+      "path": "bancolombia"
     },
     {
       "id": 11,
       "name": "scotiabank colpatria",
       "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/scotiabank.png",
-      "path": "../../assets/entityF/scotiabank.png"
+      "path": "scotiabank"
     },
     {
       "id": 12,
       "name": "nequi",
       "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/nequi.png",
-      "path": "../../assets/entityF/nequi.png"
+      "path": "nequi.png"
     },
     {
       "id": 13,
       "name": "nu",
       "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/nu.png",
-      "path": "../../assets/entityF/nu.png"
+      "path": "nu.png"
     },
     {
       "id": 14,
       "name": "pibank",
       "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/pibank.png",
-      "path": "../../assets/entityF/pibank.png"
+      "path": "pibank"
     },
     {
       "id": 15,
       "name": "banco finandina",
       "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/ban-finandina.png",
-      "path": "../../assets/entityF/ban-finandina.png"
+      "path": "ban-finandina"
     },
     {
       "id": 16,
       "name": "banco sudameris",
       "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/ban-gnb.png",
-      "path": "../../assets/entityF/ban-gnb.png"
+      "path": "ban-gnb"
     },
     {
       "id": 17,
       "name": "banco sudameris",
       "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/ban-gnb.png",
-      "path": "../../assets/entityF/ban-gnb.png"
+      "path": "ban-gnb"
     },
     {
       "id": 18,
       "name": "bancoomeva",
       "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/bancoomeva.png",
-      "path": "../../assets/entityF/bancoomeva.png"
+      "path": "bancoomeva"
     },
     {
       "id": 19,
       "name": "banco falabella",
       "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/ban-falabella.png",
-      "path": "../../assets/entityF/ban-falabella.png"
+      "path": "ban-falabella"
     },
   ];
   ngOnInit(): void {
