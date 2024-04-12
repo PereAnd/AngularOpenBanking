@@ -1,0 +1,22 @@
+.container-1{
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+  }
+  .search{
+    border: none;
+    width: 100%;
+    height: 3rem;
+    border-radius: 50px;
+    background-color: #DEDDFA;
+  }
+  .icon{
+    margin: 0 0 0 -1.5rem;
+    width: 300px;
+
+  }
+  .fa{
+    margin: 0 0 0 -2rem;
+    border-radius: 50%;
+  }

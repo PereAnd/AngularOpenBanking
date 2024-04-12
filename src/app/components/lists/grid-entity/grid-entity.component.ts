@@ -1,13 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-grid-entity',
+  template: `<app-select-entity [filterEntity]="filterEntity" />`,
   templateUrl: './grid-entity.component.html',
   styleUrls: ['./grid-entity.component.css']
 })
 export class GridEntityComponent implements OnInit{
   constructor(){}
-
+  //@Input() entityNames: Array<any> = []
+  //@Input() data:any;
+  filterEntityGrid = "{{filterEntity}}";
   entities = [
     {
       "id": 1,
@@ -50,7 +53,7 @@ export class GridEntityComponent implements OnInit{
     },
     {
       "id": 8,
-      "name": "banco de agrario de colombia",
+      "name": "banco agrario de colombia",
       "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/ban-agrario.png",
       "path": "ban-agrario"
     },

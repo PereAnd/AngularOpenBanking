@@ -34,6 +34,10 @@ import { RecommendationComponent } from './components/utils/recommendation/recom
 import { FinanceComponent } from './components/utils/finance/finance.component';
 import { ListProductsComponent } from './components/lists/list-products/list-products.component';
 import { ListRecommendationsComponent } from './components/lists/list-recommendations/list-recommendations.component';
+import { FilterPipe } from './pipe/filter.pipe';
+import { FormsModule } from '@angular/forms';
+import { SearchComponent } from './components/utils/search/search.component';
+
 
 @NgModule({
   declarations: [
@@ -67,12 +71,16 @@ import { ListRecommendationsComponent } from './components/lists/list-recommenda
     FinanceComponent,
     ListProductsComponent,
     ListRecommendationsComponent,
+    FilterPipe,
+    SearchComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
