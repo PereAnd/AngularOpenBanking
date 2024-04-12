@@ -11,9 +11,6 @@
     white-space: nowrap;
     position: relative;
   }
-  .fa{
-    align-items: end;
-  }
   .search{
     border: none;
     width: 100%;
@@ -21,9 +18,19 @@
     border-radius: 50px;
     background-color: #DEDDFA;
   }
+  .text-input{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #000000;
+  }
   .icon{
-    margin: 0 0 0 -2rem;
-    border-radius: 50%;
+    margin: 0 0 0 -1.5rem;
+    width: 300px;
+
   }
   .fa{
     margin: 0 0 0 -2rem;

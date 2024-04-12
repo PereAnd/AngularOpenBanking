@@ -31,13 +31,6 @@ export class GridEntityComponent implements OnInit{
     },
     {
       "id": 4,
-      "name": "banco w",
-      "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/ban-w.png",
-      "path": "ban-w"
-
-    },
-    {
-      "id": 5,
       "name": "daviplata",
       "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/daviplata.png",
       "path": "daviplata"
@@ -83,13 +76,13 @@ export class GridEntityComponent implements OnInit{
       "id": 12,
       "name": "nequi",
       "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/nequi.png",
-      "path": "nequi.png"
+      "path": "nequi"
     },
     {
       "id": 13,
       "name": "nu",
       "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/nu.png",
-      "path": "nu.png"
+      "path": "nu"
     },
     {
       "id": 14,
@@ -111,18 +104,12 @@ export class GridEntityComponent implements OnInit{
     },
     {
       "id": 17,
-      "name": "banco sudameris",
-      "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/ban-gnb.png",
-      "path": "ban-gnb"
-    },
-    {
-      "id": 18,
       "name": "bancoomeva",
       "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/bancoomeva.png",
       "path": "bancoomeva"
     },
     {
-      "id": 19,
+      "id": 18,
       "name": "banco falabella",
       "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/ban-falabella.png",
       "path": "ban-falabella"
