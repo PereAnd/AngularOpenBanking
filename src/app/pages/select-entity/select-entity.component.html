@@ -2,7 +2,7 @@
     <app-header-cbit></app-header-cbit><br>
     <div class="container">
         <p class="text-input">Elige tu Banco</p>
-        <app-search />
-        <app-grid-entity/>
+        <app-search [placeholder]= "'Escribe el nombre de la entidad...'" (filterEntity)="recibirMensaje($event)" />
+        <app-grid-entity [filterEntityGrid] = "textoRecibido" />
     </div>
 </body>

@@ -6,6 +6,8 @@ import { Component,Input } from '@angular/core';
   styleUrls: ['./select-entity.component.css']
 })
 export class SelectEntityComponent{
-  constructor(){}
-
+  textoRecibido: string="";
+  recibirMensaje(texto:string){
+    this.textoRecibido = texto;
+  }
 }

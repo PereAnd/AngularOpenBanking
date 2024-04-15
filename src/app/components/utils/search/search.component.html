@@ -1,6 +1,6 @@
 <div class="box">
     <div class="container-1">
-        <input type="text" class="search" name="{{filterEntity}}" placeholder="Digite el nombre de la entidad" [(ngModel)]='filterEntity'>
+        <input type="search" (keyup)="textoFiltro($event)" class="search" name="filterEntity" placeholder="{{placeholder}}">
         <span class="icon">
             <i class="fa">
                 <img src="../../../assets/search-button.png" width="40" height="40" frameborder="0"

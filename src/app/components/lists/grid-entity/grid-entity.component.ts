@@ -2,15 +2,13 @@ import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-grid-entity',
-  template: `<app-select-entity [filterEntity]="filterEntity" />`,
+  template: `<app-search [filterEntity]="filterEntityGrid" />`,
   templateUrl: './grid-entity.component.html',
   styleUrls: ['./grid-entity.component.css']
 })
-export class GridEntityComponent implements OnInit{
+export class GridEntityComponent{
   constructor(){}
-  //@Input() entityNames: Array<any> = []
-  //@Input() data:any;
-  filterEntityGrid = "{{filterEntity}}";
+  @Input() filterEntityGrid: string="";
   entities = [
     {
       "id": 1,
@@ -118,8 +116,5 @@ export class GridEntityComponent implements OnInit{
       "path": "ban-falabella"
     },
   ];
-  ngOnInit(): void {
-    throw new Error('Method not implemented.');
-  }
 
 }

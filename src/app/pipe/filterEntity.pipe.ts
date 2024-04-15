@@ -1,14 +1,14 @@
 import { Pipe, PipeTransform } from '@angular/core'
 
 @Pipe({
-    name:'filter'
+    name:'filterEntity'
 })
 export class FilterPipe implements PipeTransform {
     transform(value:any[], arg:string): any {
         if (!Array.isArray(value)){
             return value;
         }
-        if( arg === '' || arg.length < 3 ) return value;
+        if( arg === '' || arg.length < 2 ) return value;
         const resultEntities = [];
         for(const entity of value){
             if(entity.name.toLowerCase().indexOf(arg.toLowerCase()) > -1){

@@ -1,9 +1,8 @@
 <div class= "grid-entity">
-  <div class="select-entity" name="filterPost" *ngFor="let entity of entities | filter:filterEntityGrid">
+  <div class="select-entity" name="filterPost" *ngFor="let entity of entities | filterEntity: filterEntityGrid">
     <app-entity
       [nameImage]="entity.path"
       [nameEntity]="entity.name"
     />
   </div>
-
 </div>
