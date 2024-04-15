@@ -115,6 +115,24 @@ export class GridEntityComponent{
       "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/ban-falabella.png",
       "path": "ban-falabella"
     },
+    {
+      "id": 19,
+      "name": "banco de bogotá",
+      "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/ban-bogota.png",
+      "path": "ban-bogota"
+    },
+    {
+      "id": 20,
+      "name": "banco davivienda",
+      "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/ban-davivienda.png",
+      "path": "ban-davivienda"
+    },
+    {
+      "id": 20,
+      "name": "bancocamia",
+      "url": "https://periferiaitgroup-my.sharepoint.com/personal/cesarbaez_cbit-online_com/Documents/OpenBanking/Demo/Imagenes/logos%20Bancos/bancamia.png",
+      "path": "bancamia"
+    },
   ];
 
 }
