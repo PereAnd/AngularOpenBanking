@@ -58,7 +58,7 @@ export class PaymentSummaryComponent {
           this.summaryPayment.numeroDocumento = this.user.numeroIdentificacion;
           this.summaryPayment.observaciones = marketplace.motivo;
           this.summaryPayment.comercio = marketplace.destinoPago.nombre;
-          this.summaryPayment.totalPagar = marketplace ? marketplace.total : 0;
+          this.summaryPayment.totalPagar = marketplace ? marketplace.total : '0';
         },
       });
   }
@@ -85,14 +85,14 @@ export class PaymentSummaryComponent {
     } else {
       this.banksService
         .ban_transferIntention(
-          this.processPayment.access_token,
+          this.processPayment.access_token || '',
           this.summaryPayment.totalPagar,
           this.summaryPayment.observaciones
         )
         .subscribe({
           next: (res) => {
-            let transferCode = res.data[0].transferCode;
-            let redirectURL = res.data[0].redirectURL;
+            let transferCode = res.data.transferCode;
+            let redirectURL = res.data.redirectURL;
             this.processPayment = {
               ...this.processPayment,
               transferCode,
@@ -105,6 +105,9 @@ export class PaymentSummaryComponent {
             window.open(redirectURL, '_blank');
             // TODO: Servicio no disponible, pendiente validar respuesta y callback
           },
+          error: (error) => {
+            console.log(error);
+          }
         });
     }
   }

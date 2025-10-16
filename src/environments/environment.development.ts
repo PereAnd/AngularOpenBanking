@@ -19,11 +19,11 @@ export const environment = {
     // USER_TEST: { tipoDocumento: '04', numeroDocumento: '1389123506' },
   },
   BAN: {
-    BASEURL: 'http://54.91.70.251:4001',
+    BASEURL: 'http://localhost:4001',
     // BASEURL: 'http://localhost:3001',
     GRANT_TYPE: 'client_credentials',
-    CLIENT_ID: '51daaeab18363acf525e749130d9a7a5',
-    CLIENT_SECRET: 'cbb2a37ea5e783de41835a83362d5897',
+    CLIENT_ID: '4ae1448cf4c3c30ee0f03b3611fdbc68',
+    CLIENT_SECRET: 'da22353d7d9d5dd2d1bb5ed9084e091a',
     SCOPE:
       'Product-balance:read:user TermsConditions:read:user TermsConditions-register:write:user Transfer-Intention:read:app Transfer-Intention:write:app',
     COMMERCE_URL: 'https://gateway.com/payment/route?commerce=Telovendo',
